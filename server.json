@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sefaz_pe_crf-mcp",
+  "title": "SEFAZ PE: Certidão de Regularidade Fiscal",
+  "description": "SEFAZ PE: Certificate de Regularidade Fiscal, official-source lookup. Platform-hosted, pay per query",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sefaz_pe_crf-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sefaz_pe_crf"
+    }
+  ]
+}
